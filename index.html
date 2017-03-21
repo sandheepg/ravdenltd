@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Ravden Limited</title>
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<meta name="theme-color" content="#ffffff">
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<! jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<script type="text/javascript" src="js/slick.js"></script>
+<!-- Home Page Slider -->
+<script src="js/jssor.slider-22.2.16.mini.js" type="text/javascript"></script>
+
+<!-- Home Page Slider Custom Script -->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 10);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+    <style>
+       
+    </style>
+
+</head>
+
+<body>
+
+<!-- navbar for profile settings -->
+<nav class="navbar navbar-default">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html"><img src="images/ravden_logo.png" /></a>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="navbar-collapse-3">
+<div class="contact-info hidden-xs">
+<span>
+<a href="mailto:sales@ravdenltd.com">
+<i class="fa fa-envelope-o"></i>
+sales@ravdenltd.com
+</a>
+</span>
+<span>
+<a><i class="fa fa-mobile"></i>
+ UK - 0-800-090-3918</a>
+</span>
+<span>
+<a><i class="fa fa-mobile"></i>
+AUS - 0-800-090-3918 </a>
+</span>
+
+<!--                        <span><i class="fa fa-facebook"></i></span>
+                <span><i class="fa fa-google-plus"></i></span>-->
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="tech.html">Technologies</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<div class="collapse nav navbar-nav nav-collapse" id="nav-collapse3">
+<form class="navbar-form navbar-right" role="search">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Search" />
+</div>
+<button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+</form>
+</div>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container -->
+</nav><!-- /.navbar -->
+
+<!-- header -->       
+
+<!-- body section -->   
+<section class="banner">
+<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1920px;height:600px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-oval" style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19.0px;position:relative;top:50%;width:38px;height:38px;" src="images/oval.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1920px;height:600px;overflow:hidden;">
+            <!--image 1 -->
+            <div>
+                <a href="#"><img data-u="image" src="images/banner1.jpg" /></a>
+            </div>
+            <!--image 2 -->
+            <div>
+            <img data-u="image" src="images/banner2.jpg" />
+             </div>
+            <!--image 3 -->
+            <div>
+                <img data-u="image" src="images/banner3.jpg" />
+           
+            </div>
+            </div>
+        
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+
+</section>
+<section class="home-services">
+<h1 class="text-center"><a href="#">Services</a></h1>
+<div class="container">
+<div class="row text-center">
+<div class="col-sm-6 col-xs-12 col-md-3 services">
+<a href="services.html#enterprise" class="icon-serv">
+<img src="images/ent_portal_home.png" class="img-responsive">
+<h2> ENTERPRISE PORTALS</h2>
+<h5>Short Text</h5>
+</a>
+</div>
+<div class="col-sm-6 col-xs-12 col-md-3 services">
+<a href="services.html#mobile" class="icon-serv">
+<img src="images/mobile_home.png" class="img-responsive">
+<h2> MOBILE APPS</h2>
+<h5>Native &amp; Hybrid</h5>
+</a>
+</div>
+<div class="col-sm-6 col-xs-12 col-md-3 services">
+<a href="services.html#cms" class="icon-serv">
+<img src="images/cms_home.png" class="img-responsive">
+<h2>CMS</h2>
+<h5>Short Text</h5>
+</a>
+</div>
+<div class="col-sm-6 col-xs-12 col-md-3 services">
+<a href="services.html#ecom" class="icon-serv">
+<img src="images/ecom_home.png" class="img-responsive">
+<h2>E-COMMERCE</h2>
+<h5>Short Text</h5>
+</a>
+</div>
+<div class="col-sm-6 col-xs-12 col-md-4 services">
+<a href="services.html#database" class="icon-serv">
+<img src="images/db_home.png" class="img-responsive">
+<h2>DATABASE CONSULTING</h2>
+<h5>Short Text</h5>
+</a>
+</div>
+<div class="col-sm-6 col-xs-12 col-md-4 services">
+<a href="services.html#ui" class="icon-serv">
+<img src="images/ui_home.png" class="img-responsive">
+<h2>UI, UX & RWD</h2>
+<h5>Short Text</h5>
+</a>
+</div>
+<div class="col-sm-6 col-xs-12 col-md-4 services">
+<a href="services.html#branding" class="icon-serv">
+<img src="images/brand_home.png" class="img-responsive">
+<h2>BRANDING &amp; DIGITAL MARKETING</h2>
+<h5>Short Text</h5>
+</a>
+</div>
+
+</div>
+</div>    
+</section>
+
+<section class="home-products home-section1">
+<h1 class="text-center"><a href="#">Testimonials</a></h1>
+<div class="news-slider sec3">
+<div id="carousel2" class="carousel slide carousel-fade">
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+<div class="carousel slide" id="fade-quote-carousel2" data-ride="carousel" data-interval="3000">
+<!-- Carousel indicators -->
+
+<ol class="carousel-indicators">
+    <li data-target="#fade-quote-carousel2" data-slide-to="0"></li>
+    <li data-target="#fade-quote-carousel2" data-slide-to="1"></li>
+</ol>
+
+<!-- Carousel items -->
+<div class="carousel-inner">
+    <div class="item active">
+        <blockquote>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br>
+            &nbsp;</p>
+        </blockquote>
+        <span class="test-person">
+            <h4>Client Name</h4>
+            <h5>Client Company</h5>
+        </span>
+    </div>
+
+    <div class="item">
+        <blockquote>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </blockquote>
+        <span class="test-person">
+            <h4>Client Name</h4>
+            <h5>Client Company</h5>
+        </span>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<div class="clearfix"></div>
+
+<!--testimonial-->
+
+<!--logo slider-->
+<section class="home-section4">
+<div class="container">
+<div class="quote">
+<h1 class="text-center">Technologies we work on</h1>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="featured-clients">
+                            <div><a href="#" class="thumbnail"><img src="images/ruby.jpg" alt="Image" style="max-width:100%;"></a></div>
+                            <div><a href="#" class="thumbnail"><img src="images/java.jpg" alt="Image" style="max-width:100%;"></a></div>
+                            <div><a href="#" class="thumbnail"><img src="images/php.jpg" alt="Image" style="max-width:100%;"></a></div>
+                            <div><a href="#" class="thumbnail"><img src="images/android.jpg" alt="Image" style="max-width:100%;"></a></div>
+                            <div><a href="#" class="thumbnail"><img src="images/ios.jpg" alt="Image" style="max-width:100%;"></a></div>
+                            <div><a href="#" class="thumbnail"><img src="images/msql.jpg" alt="Image" style="max-width:100%;"></a></div>
+                            <div><a href="#" class="thumbnail"><img src="images/psql.jpg" alt="Image" style="max-width:100%;"></a></div>
+</div>
+</div>
+</div>
+</div><!--.container-->
+</section>
+
+<!-- body section -->
+
+<!-- footer -->
+
+<footer class="main-footer">
+<div class="container">
+<div class="col-md-6">
+<h3>Who We Are</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+<a href="about.html">More About Us >></a>
+</div>
+<div class="col-md-6">
+<h3>Get In Touch</h3>
+<p>If you are in need of any of our products and/or services in terms of consulting, outsourcing or contract programming, please feel free to call us or write to us at the coordinates given below.
+</p>
+<span>
+<i class="fa fa-mobile"></i>
+UK - 0-800-090-3918
+</span><br>
+<span>
+<i class="fa fa-mobile"></i>
+AUS - 0-800-090-3918
+</span><br>
+<span>
+<a href="mailto:sales@ravdenltd.com">
+<i class="fa fa-envelope-o"></i>
+sales@ravdenltd.com
+</a>
+</span>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-4">
+<p>&copy; 2017 <a href="#">Ravden Ltd.</a>. All rights reserved.</p>
+</div>
+<div class="col-sm-12 col-md-8">
+<div class="footer-menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="tech.html">Technologies</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<a href="#top" rel="relativeanchor" class="top"><i class="fa fa-arrow-circle-up"></i></a>
+</body>
+</html>
+
